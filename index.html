@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>WEB1 -firstpage</title>
+<meta charset="utf-8">
+</head>
+<body>
+    <h1><a href = "index.html">WEB</a></h1>
+    <ul>
+            <li><a href = "1.html">HTML</a></li>
+            <li><a href = "2.html">Css</a></li>
+            <li><a href = "3.html">JavaScript</a></li>
+            <li><a href = "4.html">인터넷 열결하기</a></li>
+    </ul>
+
+
+    <h2>190506 HTML이란 무엇인가</h2>
+    <li> 제목만들기</li>
+    h1~h6까지는 제목을 나타내는 태그 7은 없어<br>
+    숫자가 커질 수록 크기가 작아지고 자동으로 줄바꿈이 된다
+
+    <h2>tag사용하기 </h2>
+    꺾쇠로 감싸는 방식 앞에는 열려있고 뒤에는 닫혀있고 <br>
+    닫힌거는 슬래쉬(/)로 구분한다
+
+    <h2>글씨를 진하게 하기 = strong</h2>
+    <strong>웹페이지 만들기</strong>
+
+    <h2>밑줄 치기 = underline(u)</h2>
+    <strong>밑줄치기<u>웹페이지 만들기</u>wow</strong>
+
+    <h2>흔히 사용되는 tag</h2>
+    <p>advancedwebranking.com/html/</p>
+    head<br>body<br>html<br>title<br>meta<br>div<br>
+    a<br>script<br>
+    link<br>
+    <p><strong>img</strong>
+        = 이미지를 띄우게 하는 방법/ img src = ""을 하게 되면
+        img의 소스를 적을 수 있다 그 소스를 띄우는 것!<br>
+        unsplash.com이라는 사이트에서 다운받으면 좋음<br>
+    <img src="ex.jpg" width="300">->귀욤<br>
+    100%이런식으로도 설정할 수 있음 %으로</p>
+    p = 얘도 줄바꿈인데 한칸띄워서 줄바꿈 단락<br>
+    but 줄바꿈에 있어서 시각적인 한계가 존재한다<br>
+    span<br>
+    li = 점으로 order표시<br>
+    br=바로 아랫줄에 줄바꿈<br>
+    style = 여백을 나타내는 것 속성중에 하나로 p뒤에 쓴다 속성의 값은 
+    css 문법중에서 margin이라고 한다 ="margin-top:45px;"라고 쓰면 그만큼 위쪽으로 
+    마진을 주게 되고 45px만큼 떨어진다<br>
+    input<br>form<br>
+    <p>css는 html을 꾸며주는 역할을 한다</p>
+    <p>table은 표를 만들어주는 태그 table이 부모가 되고 tr이 행을 td가 열을 표시한다</p>
+
+    <h2>속성이라는 tag의 심화과정 배우기</h2>
+    img src = "" width="" <br>
+    src, width부분을 attribute라고 한다 속성은 순서는 상관없고
+    tag가 자체로 정보가 부족할 때 사용한다
+
+    <h2>부모자식과 목록</h2>
+    밖에 있는 태그를 부모 <br>
+    안에 있는 태그를 자식 <br>
+    어떤 태그들은 항상 부모자식관계가 형성되어야 하는것이 있다 <br>
+    ul,ol과 li태그/ ul은 unordered list로 group을 하기위한 부모고, li가 자식태그가 된다 
+    ol은 ordered list로 자동적으로 순서를 매겨주는 부모역할을 한다.
+
+    <h2>구조를 만드는 방법</h2>
+    <ol>
+    <li>head = body를 설명하는 태그는 head로 묶기로 약속함<br></li>
+    <li>body=본문은 꼭 body라는 태그로 묶어줘야한다<br></li>
+    <li>html = 모든것을 묶는 최상위 태그<br></li>
+    <li>title =웹페이지의 제목을 설정하는 것 검색엔진이 찾을 때 쓰는것<br></li>
+    <li>meta = 파일을 읽는 형식을 정해주는 것 chatset으로 정한다 여기서는 우리가 
+        utf-8로 만들었기 때문에 웹페이지에서도 utf-8로 열어야 읽을 수 있다
+        또한 이 소스를 보는 사람을에게 파일의 형식을 알려줄 수 있는 하나의 지표가 되는 것<br></li>
+    <li>!DOCTYPE = html 본문 맨 위쪽에는 어떤 형식으로 쓰여졌는지를 알려주기 위해 써준다</li>
+    </ol>
+
+    <h2>링크걸기</h2>
+    a = 어떤 사이트랑 <a href="https://www.w3.org/" 
+    target = "_blank" title ="링크걸어보기">링크</a>를 걸수 있다<br>
+    a의 정보가 부족하기 때문에 속성을 추가해준다 html reference의 약자로 href를 
+    쓰고 ""안에 링크를 넣어주면 누를 수 있게 된다<br>
+    또한 새 탭으로 열고 싶으면 target = "_blank"를 쓰면된다.<br>
+    누르기 전에 무엇인지 정보를 알고싶으면 title을 쓴다 그럼 호버같이
+    커서를 위에 두면 정보를 알려준다<br>
+</body>
+</html>
